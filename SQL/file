@@ -1,1 +1,29 @@
+# SELECT / WHERE
+1. Display all data about customers.
+2. Display the customers name which are in the Customers table
+3. Display customer's name and city whose customerID is 40     
+4. Display customer's name and postal code whose city is London and country is UK
+5. Display information of customers whose country is not Spain
+6. Display information of customers whose country is Madrid and Address is not null
+
+# ORDER BY
+7. Display the contact name, address and city of customers. Sort results from Z to A by city.
+8. Display all information on products from the products table and sort from largest price to smallest price.
+
+# DISTINCT
+9. Provide a list of city (cannot be repeated) our customers.
+10. Display a list of suppliers that we have in the suppliers table. Sort by country in descending order.
+
+#LIKE
+11. Display the contact name and city of customers from the customers table whose city ends with "E".     
+12. Display information on customers whose contact name begins with "M" or whose customer name contains the letter "F".
+13. Display information on customers whose contact name start with "A" and ends with "O" .
+
+# AS
+14.Present a report to the management with the following columns: Name. Include only London customers on the report.
+15.Present a report to your supervisor that will include the fist name, last name and employee Id of an employees whose date of bith  is between 1968-12-08 and 1955-03-04.
+
+# COUNT()
+16.Count all orders from the Orders table.
+17. Count the number of all orders Id.
 
