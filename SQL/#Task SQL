@@ -5,25 +5,40 @@
 4. Display customer's name and postal code whose city is London and country is UK
 5. Display information of customers whose country is not Spain
 6. Display information of customers whose country is Madrid and Address is not null
+7. Display  product name and price products  where the price  is between 10 and 20
 
 # ORDER BY
-7. Display the contact name, address and city of customers. Sort results from Z to A by city.
-8. Display all information on products from the products table and sort from largest price to smallest price.
+8. Display the contact name, address and city of customers. Sort results from Z to A by city.
+9. Display all information on products from the products table and sort from largest price to smallest price.
 
 # DISTINCT
-9. Provide a list of city (cannot be repeated) our customers.
-10. Display a list of suppliers that we have in the suppliers table. Sort by country in descending order.
+10. Provide a list of city (cannot be repeated) our customers.
+11. Display country of suppliers that we have in the suppliers table. Sort by country in descending order.
 
-#LIKE
-11. Display the contact name and city of customers from the customers table whose city ends with "E".     
-12. Display information on customers whose contact name begins with "M" or whose customer name contains the letter "F".
-13. Display information on customers whose contact name start with "A" and ends with "O" .
+# LIKE
+12. Display the contact name and city of customers from the customers table whose city ends with "E".     
+13. Display information of customers whose contact name begins with "M" or whose customer name contains the letter "F".
+14. Display contact name, address of customers whose contact name start with "A" and ends with "O" .
 
 # AS
-14.Present a report to the management with the following columns: Name. Include only London customers on the report.
-15.Present a report to your supervisor that will include the fist name, last name and employee Id of an employees whose date of bith  is between 1968-12-08 and 1955-03-04.
+15. Present the customer's name as the customer and the contact's name as the contact person.
+16.Present the suppler name as the supplier and sort result from Z to A.
 
 # COUNT()
-16.Count all orders from the Orders table.
-17. Count the number of all orders Id.
+17. Count the number of all orders Id from the Orders table.
+
+# AVG() 
+18. In the order details table, calculate the average number of  orders and give the name Orders.
+#INSERT INTO
+19. Enter the data of a new customer into the database with the following values: ('Tommy Hilfiger','Tommy Robbinson','Rose Str. 17', 'Amsterdam','39999','The Netherlands')
+
+#UPDATE
+20. Update customer information whose CustomerID is 97, namely update their postal code to 0000
+
+#DELETE
+21. Delete the customer whose customer ID is 94
+
+# INNNER JOIN
+22. Join the two tables of Products and Categories and select the columns from them: Product name, price and description
+
 
