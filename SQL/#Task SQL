@@ -32,13 +32,20 @@
 #INSERT INTO
 19. Enter the data of a new customer into the database with the following values: ('Tommy Hilfiger','Tommy Robbinson','Rose Str. 17', 'Amsterdam','39999','The Netherlands')
 
-#UPDATE
-20. Update customer information whose CustomerID is 97, namely update their postal code to 0000
+# MAX() / MIN() / SUM()
+20. Display the maximum product price from the product table.
+21. What is the cheapest product in the product table 
+22. How much the supplier ( id= 1 ) sold the product in total.	
 
-#DELETE
-21. Delete the customer whose customer ID is 94
+# UPDATE
+23. Update customer information whose CustomerID is 97, namely update their postal code to 0000
+
+# DELETE
+24. Delete the customer whose customer ID is 94
 
 # INNNER JOIN
-22. Join the two tables of Products and Categories and select the columns from them: Product name, price and description
+25. Join the two tables of Products and Categories and select the columns from them: Product name, price and description
 
+# GROUP BY()
+#26 Display the minimum cost of the product.
 
