@@ -28,20 +28,19 @@
 17. SELECT COUNT (OrderID) AS Orders FROM [Orders];
 
 # MAX() / MIN() / SUM()
-20. Display the maximum product price from the product table.
-21. What is the cheapest product in the product table 
-22. How much the supplier ( id= 1 ) sold the product in total.	
+20. SELECT MAX (Price) FROM [Products];
+21. SELECT MIN (Price) FROM [Products];
+22. SELECT SUM (SupplierID) FROM [Products] WHERE SupplierID= '1';
 
 #UPDATE
-23. Update customer information whose CustomerID is 97, namely update their postal code to 0000
+23. UPDATE [Customers] SET PostalCode = '0000' WHERE CustomerID = '97';
+
 #DELETE
-24. Delete the customer whose customer ID is 94
+24. DELETE FROM [Customers] WHERE CustomerID = '94'
 
 # INNNER JOIN
-25. Join the two tables of Products and Categories and select the columns from them: Product name, price and description
+25. SELECT ProductName, Price, Description FROM [Products] JOIN [Categories] ON Products.CategoryID = Categories.CategoryID
 
-# GROUP BY()
-#26 Display the minimum cost of the product.
 
 
 
