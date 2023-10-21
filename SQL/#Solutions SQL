@@ -27,20 +27,22 @@
 # COUNT()
 17. SELECT COUNT (OrderID) AS Orders FROM [Orders];
 
-# MAX() / MIN() / AVG() / SUM()
-18.SELECT AVG (Quantity) AS Orders FROM [OrderDetails];
+# MAX() / MIN() / SUM()
+20. Display the maximum product price from the product table.
+21. What is the cheapest product in the product table 
+22. How much the supplier ( id= 1 ) sold the product in total.	
 
-#INSERT INTO
-19. INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country) VALUES ('Tommy Hilfiger','Tommy Robbinson','Rose Str. 17', 'Amsterdam','39999','The Netherlands');
-
-#UPDATE 
-20. UPDATE Customers SET PostalCode = 0000 WHERE CustomerID = 97;
-
+#UPDATE
+23. Update customer information whose CustomerID is 97, namely update their postal code to 0000
 #DELETE
-21.DELETE FROM Customers WHERE CustomerID = 94;
+24. Delete the customer whose customer ID is 94
 
 # INNNER JOIN
-22.SELECT ProductName, Price, Description FROM [Products] JOIN [Categories] ON Products.CategoryID = Categories.CategoryID;
+25. Join the two tables of Products and Categories and select the columns from them: Product name, price and description
+
+# GROUP BY()
+#26 Display the minimum cost of the product.
+
 
 
  
