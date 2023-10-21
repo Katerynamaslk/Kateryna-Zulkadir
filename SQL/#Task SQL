@@ -46,6 +46,4 @@
 # INNNER JOIN
 25. Join the two tables of Products and Categories and select the columns from them: Product name, price and description
 
-# GROUP BY()
-#26 Display the minimum cost of the product.
 
